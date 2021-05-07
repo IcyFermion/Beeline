@@ -130,7 +130,7 @@ input_settings:
 
         - name: "SINGE"
           params: 
-              should_run: [True]
+              should_run: [False]
               lambda: [0.01]
               dT: [15]
               num_lags: [5]
