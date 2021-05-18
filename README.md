@@ -1,3 +1,9 @@
+# For the Machine Learning project:
+1. Generate DREAM input expression data using [GNW](https://github.com/tschaffter/gnw), we already have it ready in the `./inputs` directory.
+2. Setting up Docker as listed in the original setup guide down:
+3. Compute the network inference on DREAM dataset `python BLRunner.py --config config-files/dream3.yaml`, `python BLRunner.py --config config-files/dream3_50.yaml`, `python BLRunner.py --config config-files/dream4.yaml`
+4. Run the ipython notebook in `./outputs` for the data curating and stacking ensemble experiments
+
 # :honeybee: BEELINE: Benchmarking gEnE reguLatory network Inference from siNgle-cEll transcriptomic data :honeybee:
 ![Overview of BEELINE](docs/figs/overview-graphic.png )
 
